@@ -1,0 +1,1 @@
+# word-recognition-with-hmm
