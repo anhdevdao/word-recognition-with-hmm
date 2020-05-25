@@ -77,4 +77,4 @@ def download_by_student_id(student_id):
             download_response(r)
             print('---------------')
 
-download_by_student_id('17020173')
+download_by_student_id('17021288')
