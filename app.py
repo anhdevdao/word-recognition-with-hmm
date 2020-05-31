@@ -163,13 +163,10 @@ class Recorder:
         self.is_recording = False
 
     def import_and_predict(self):
-        if self.open_file_look:
-            return
-        
-        self.open_file_look = True
         file_path = askopenfilename()
         print(file_path)
         self.recognize(file_path, False)
+        self.open_file_look = False
 
     def start_recording(self):
         if self.start_lock:
